@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 #titrepage{
@@ -425,13 +423,13 @@ iframe {
 .home a {
     text-decoration: none;
     color:#5cb85c;
-    margin-right: auto; 
+    float: left; 
 }
 
 .hautDePage a {
     text-decoration: none;
     color:#5cb85c;
-    margin-left: auto;
+    float: right;
 }
 
 footer a {
