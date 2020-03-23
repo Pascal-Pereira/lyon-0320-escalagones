@@ -365,6 +365,7 @@ h3 {
     margin: 20px;
     text-align: center;
 }
+
  .liste_salles{
      text-align: center;
      color: black;  
@@ -413,35 +414,12 @@ footer {
 /* 
  Début CSS Pascal */
 
-#accordion {
-    width: 80%;
-    margin : auto;
-    min-width: 20%;
-}
-
-/* 
-.btn {
-    color: white;
-}
- */
-
-
-/*.intro_bloc_voie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    }
-
-
-.intro_para {
-    text-align: center;
-    width: 60%;
-    padding:5px 10px;
-    border:2px solid black;
+.styleCards {
+    background-color: black;
+    color:white;
     border-radius: 10px;
-
-}*/
+    transition: 2s; 
+}
 
 
 .cardSalles  {
@@ -455,7 +433,6 @@ footer {
 
 .cardSalles .card {
     margin: 10px;
-
     height: 500px;
     
 }
@@ -464,15 +441,13 @@ footer {
     color: #5cb85c
 }
 
-
-.voie  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.li_menu-esc {
+    list-style-type: none;
 }
 
+.li_menu-esc-style {
+    color: white;
+}
 
 .liens_web {
     border:1px solid #f7f7f7;
@@ -480,7 +455,6 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
 
 .lien_google{
     text-align: center;
@@ -498,40 +472,9 @@ footer {
     text-align: center;
 }
 
-/* .lien_google_climbup a {
-    padding: 50px; 
-
-} */
-
 .lien_google_climbup  {
     margin: auto;
     text-align: center;
-}
-
-.li_menu-esc {
-    list-style-type: none;
-}
-
-#mroc{
-    height: 400px;
-}
-#verticalart{
-    height: 400px;
-}
-#climbup {
-    height: 400px; 
-}
-#holdup {
-    height: 400px;
-}
-#climbup {
-    height: 400px;
-}
-#climbup {
-    height: 400px;
-}
-#arbresle { 
-    height: 400px;
 }
 
 .para_escalade {
@@ -539,27 +482,6 @@ footer {
     height: 150px;
     padding: 10px;
     border:2px solid #f7f7f7 
-}
-
-
-
-/* 
-iframe {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-} */
-
-/*.listing_block {
-    display: flex;
-}*/
-
-.ul_block {
-    display: flex;
-    justify-content: space-around;
-    width:100%;
-    border : 1px solid red;
 }
 
 /* Fin CSS Pascal */
