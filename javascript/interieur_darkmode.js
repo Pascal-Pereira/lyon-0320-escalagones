@@ -11,7 +11,6 @@ const cardSalles = document.querySelector('.cardSalles');
 const verticalartCard = cardSalles.querySelector('#verticalart');
 
 const liclimbup = document.querySelectorAll(".climbup");
-console.log(liclimbup.length)
 const climbupCard = cardSalles.querySelector('#climbup')
 
 
@@ -50,8 +49,6 @@ function changeStyleClimbup() {
 // Event and styling : 
 
 limroc.forEach (li => { li.addEventListener('click',changeStyle)})
-
-
 liverticalart.addEventListener('click',changeStyleVer);
 
 liclimbup.forEach(li => {
